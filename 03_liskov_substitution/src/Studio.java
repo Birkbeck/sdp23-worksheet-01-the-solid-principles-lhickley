@@ -6,4 +6,8 @@ public final class Studio extends Apartment {
     public void setSquareFootage(int sqft) {
         this.squareFootage = sqft;
     }
+
+    public void upgrade() {
+        this.squareFootage += 40;
+    }
 }

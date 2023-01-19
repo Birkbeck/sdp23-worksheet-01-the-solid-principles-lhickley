@@ -1,7 +1,7 @@
-public class WeatherTracker {
+public class WeatherTracker implements IWeatherTracker {
     String currentConditions;
-    Phone phone;
-    Emailer emailer;
+    IPhone phone;
+    IEmailer emailer;
 
     public WeatherTracker() {
         phone = new Phone();
